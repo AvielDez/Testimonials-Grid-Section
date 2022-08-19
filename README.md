@@ -80,7 +80,7 @@ As I go on I am going to continue getting more comfortable with CSS Grid and Fle
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=68O6eOGAGqA&t=584s&ab_channel=AngelaDelise) - This helped me with CSS Grid and is probably the easiest to understand. My only concern is this method seems static and as a beginner, I can not see how this can be used dynamically reason.
+- [CSS Grid Tutorial](https://www.youtube.com/watch?v=68O6eOGAGqA&t=584s&ab_channel=AngelaDelise) - This helped me with CSS Grid and is probably the easiest to understand. My only concern is this method seems static and as a beginner, I can not see how this can be used dynamically reason.
 
 ## Author
 
