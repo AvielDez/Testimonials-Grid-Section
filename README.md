@@ -75,26 +75,15 @@ Then, all that needed to be done was to place the grid-area in each class in CSS
         grid-area: user-005;
     }
 ```
-If I were to change anything about my code it would be a cleaner and reduced code both in HTML and CSS. Looking back through the code I could clean up my classes in HTML as well as implement some CSS custom properties for the colors so that it allows easy color theme adjustments in the future. I also feel as if I did some hacky adjustments in CSS to make the website look as close as possible to the design. In the future, I would like to look back at this project, review and either redo the project or adjust the code. 
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+If I were to change anything about my code it would be a cleaner and reduced code both in HTML and CSS. Looking back through the code I could clean up my classes in HTML as well as implement some CSS custom properties for the colors so that it allows easy color theme adjustments in the future. I also feel as if I did some hacky adjustments in CSS to make the website look as close as possible to the design. In the future, I would like to look back at this project, review and either redo the project or adjust the code. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+As I go on I am going to continue getting more comfortable with CSS Grid and Flex box as these tools are vital in modern design. I would like to figure out how to use CSS Grid dynamically especially with clients needing to add more content to their website I would like to ensure that CSS Grid behaves predictably. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 1]([https://www.example.com](https://www.youtube.com/watch?v=68O6eOGAGqA&t=584s&ab_channel=AngelaDelise)) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
