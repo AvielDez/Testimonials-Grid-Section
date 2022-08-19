@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshots
 
-![testimonial grid  Desktop SS](https://user-images.githubusercontent.com/110438720/185618747-9aae7034-155c-4e4b-942a-ac81dd526678.jpeg)
-![testimonial grid SS Mobile](https://user-images.githubusercontent.com/110438720/185619585-4052df59-af94-460d-9ff1-15a5cefd991d.png)
+
+![testimonial grid SS Mobile](https://user-images.githubusercontent.com/110438720/185619585-4052df59-af94-460d-9ff1-15a5cefd991d.png)![testimonial grid  Desktop SS](https://user-images.githubusercontent.com/110438720/185618747-9aae7034-155c-4e4b-942a-ac81dd526678.jpeg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
