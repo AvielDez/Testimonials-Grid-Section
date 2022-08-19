@@ -1,0 +1,144 @@
+*{margin: 0;}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/**************GENERAL USER STYLES**************/
+.container{
+    min-height: 100vh;
+    margin: 4rem auto;
+}
+h1{
+    font-size: .875rem;
+    font-weight: 500;
+}
+h2{
+    font-size: .75rem;
+    opacity: 50%;
+    font-weight: 500;
+}
+h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    position: relative;
+}
+p{
+    font-size: .875rem;
+    opacity: 70%;
+    font-weight: 500;
+}
+.user{
+    border-radius: .75rem;
+    margin: 2rem 1.5rem;
+    padding: 2rem;
+    line-height: 1.125rem;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    line-height: 1rem;
+}
+.user-profile img{
+    border-radius: 100%;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+.quotation-img{
+    position: absolute;
+    right: 3rem;
+    top: 4rem;
+    z-index: 0; 
+  }
+.name-verfication{
+    padding-left: 1rem;
+}
+
+
+/**************INDIVIDUAL USERS STYLES**************/
+.user-001{
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);   
+}
+/*Styling for user profile image border*/ 
+.user-img-001{
+    border: solid .125rem hsl(263, 55%, 72%) ;
+    border-radius: 100%;
+}
+.user-002{
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+.user-003{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+.user-004{
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+/*Styling for user profile image border*/ 
+.user-img-004{
+    border: solid .125rem hsl(263, 55%, 62%) ;
+    border-radius: 100%; 
+}
+.user-005{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+/**************Desktop Layout**************/
+@media only screen and (min-width: 420px) {
+    .body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .container{
+        margin-left: 11rem;
+        margin-right: 11rem;
+        min-height: 0;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "user-001 user-001 user-002 user-005"
+        "user-003 user-004 user-004 user-005"
+        ;
+    }
+    .user{
+        margin: 0;
+    }
+    .user-001{
+        grid-area: user-001;
+        position: relative;
+    }
+    .user-002{
+        grid-area: user-002;
+    }
+    .user-003{
+        grid-area: user-003;
+    }
+    .user-004{
+        grid-area: user-004;
+    }
+    .user-005{
+        grid-area: user-005;
+        box-shadow: 1px 1px 20px grey;
+    }
+    .quotation-img{
+        position: absolute;
+        right: 6rem;
+        top: 0;
+        z-index: 0; 
+      }
+      
+}
+
