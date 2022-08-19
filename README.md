@@ -28,16 +28,8 @@ Users should be able to:
 
 ### Screenshots
 
-
-![testimonial grid SS Mobile](https://user-images.githubusercontent.com/110438720/185619585-4052df59-af94-460d-9ff1-15a5cefd991d.png)![testimonial grid  Desktop SS](https://user-images.githubusercontent.com/110438720/185618747-9aae7034-155c-4e4b-942a-ac81dd526678.jpeg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![testimonial grid  Desktop SS](https://user-images.githubusercontent.com/110438720/185618747-9aae7034-155c-4e4b-942a-ac81dd526678.jpeg)
+![testimonial grid SS Mobile](https://user-images.githubusercontent.com/110438720/185619585-4052df59-af94-460d-9ff1-15a5cefd991d.png)
 
 ### Links
 
@@ -49,35 +41,55 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This challenge was especially helpful in getting my hands dirty with html and css. One main aspect I wanted to learn was CSS grid and flex box and wrapping my head around how they work. Not only was I tasked to create a desktop version of the website but a mobile version as well. I learned about @media quarries and used the min-width property to establish when a mobile device would be used. 
+The easiest workflow I found for CSS grid was to set up a grid-template-areas using the separate classes for each user in the order and span the design demanded.
+```css
+.container{
+        grid-template-areas: 
+        "user-001 user-001 user-002 user-005"
+        "user-003 user-004 user-004 user-005"
+        ;
+    }
+}
+```
+Then, all that needed to be done was to place the grid-area in each class in CSS
+```css
+.container{
+        grid-template-areas: 
+        "user-001 user-001 user-002 user-005"
+        "user-003 user-004 user-004 user-005"
+        ;
+    }
+    .user-001{
+        grid-area: user-001;
+    }
+    .user-002{
+        grid-area: user-002;
+    }
+    .user-003{
+        grid-area: user-003;
+    }
+    .user-004{
+        grid-area: user-004;
+    }
+    .user-005{
+        grid-area: user-005;
+    }
+}
+```
 
 To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
