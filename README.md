@@ -56,7 +56,6 @@ The easiest workflow I found for CSS grid was to set up a grid-template-areas us
         "user-003 user-004 user-004 user-005"
         ;
     }
-}
 ```
 Then, all that needed to be done was to place the grid-area in each class in CSS
 ```css
@@ -81,7 +80,6 @@ Then, all that needed to be done was to place the grid-area in each class in CSS
     .user-005{
         grid-area: user-005;
     }
-}
 ```
 
 To see how you can add code snippets, see below:
