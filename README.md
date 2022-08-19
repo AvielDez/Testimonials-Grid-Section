@@ -59,12 +59,6 @@ The easiest workflow I found for CSS grid was to set up a grid-template-areas us
 ```
 Then, all that needed to be done was to place the grid-area in each class in CSS
 ```css
-.container{
-        grid-template-areas: 
-        "user-001 user-001 user-002 user-005"
-        "user-003 user-004 user-004 user-005"
-        ;
-    }
     .user-001{
         grid-area: user-001;
     }
@@ -81,8 +75,7 @@ Then, all that needed to be done was to place the grid-area in each class in CSS
         grid-area: user-005;
     }
 ```
-
-To see how you can add code snippets, see below:
+If I were to change anything about my code it would be a cleaner and reduced code both in HTML and CSS. Looking back through the code I could clean up my classes in HTML as well as implement some CSS custom properties for the colors so that it allows easy color theme adjustments in the future. I also feel as if I did some hacky adjustments in CSS to make the website look as close as possible to the design. In the future, I would like to look back at this project, review and either redo the project or adjust the code. 
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
